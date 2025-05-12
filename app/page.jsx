@@ -4,6 +4,7 @@ import { ContextAlert } from 'components/context-alert';
 import { Markdown } from 'components/markdown';
 import { RandomQuote } from 'components/random-quote';
 import { getNetlifyContext } from 'utils';
+import SearchAdsDashboard from 'kpi';
 
 const contextExplainer = `
 The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
@@ -44,7 +45,7 @@ export default function Page() {
                 <Markdown content={preDynamicContentExplainer} />
                 <RandomQuote />
                 <Markdown content={postDynamicContentExplainer} />
-            </section>
+            </section><SearchAdsDashboard />
         </div>
     );
 }
