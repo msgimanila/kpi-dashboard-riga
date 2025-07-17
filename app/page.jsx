@@ -7,8 +7,7 @@ import { getNetlifyContext } from 'utils';
 import { SearchAdsDashboard } from 'kpi';
 
 const contextExplainer = `
-The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
-([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
+qqq
 `;
 
 const preDynamicContentExplainer = `
